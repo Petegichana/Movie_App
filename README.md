@@ -13,16 +13,17 @@ Make sure you have Docker and Docker Compose installed on your machine. If not, 
    ```bash
    git clone https://github.com/yourusername/your-repo.git
    cd your-repo
-Build the Docker images:
+   
+2. Build the Docker images:
 
-bash
-Copy code
-docker-compose build
-Start the application:
+   ```bash
+   docker-compose build
 
-bash
-Copy code
-docker-compose up
+3. Start the application:
+
+   ```bash
+   docker-compose up
+   
 This command will start the React front end and Node.js back end services. The application will be accessible at http://localhost:3000.
 
 To stop the application, press Ctrl + C in the terminal where the docker-compose up command is running.
